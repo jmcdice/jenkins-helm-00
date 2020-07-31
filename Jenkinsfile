@@ -1,7 +1,7 @@
 pipeline {
   environment {
     registry = "jmcdice/jenkins-test-img"
-    registryCredential = 'abc123'
+    #registryCredential = ''
   }
   agent any
   stages {
